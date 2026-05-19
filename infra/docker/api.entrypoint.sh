@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
-pnpm install --force
+rm -rf dist
 pnpm exec prisma generate
 pnpm dev

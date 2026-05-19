@@ -39,28 +39,28 @@
 ## 3. Giai đoạn 1: Tài khoản, xác thực và phân quyền
 
 ### 3.1. Tài khoản người dùng
-- [ ] Thiết kế bảng dữ liệu người dùng
-- [ ] Thiết kế bảng hồ sơ người dùng
-- [ ] Thiết kế vai trò `nhà đầu tư`, `nông dân`, `quản trị viên`
-- [ ] Xây dựng API đăng ký tài khoản
-- [ ] Xây dựng API đăng nhập
-- [ ] Xây dựng API đăng xuất
-- [ ] Xây dựng API lấy thông tin hồ sơ cá nhân
-- [ ] Xây dựng API cập nhật hồ sơ cá nhân
+- [x] Thiết kế bảng dữ liệu người dùng
+- [x] Thiết kế bảng hồ sơ người dùng
+- [x] Thiết kế vai trò `nhà đầu tư`, `nông dân`, `quản trị viên`
+- [x] Xây dựng API đăng ký tài khoản
+- [x] Xây dựng API đăng nhập
+- [x] Xây dựng API đăng xuất
+- [x] Xây dựng API lấy thông tin hồ sơ cá nhân
+- [x] Xây dựng API cập nhật hồ sơ cá nhân
 
 ### 3.2. OTP và xác thực
-- [ ] Xây dựng luồng gửi OTP
-- [ ] Xây dựng luồng xác thực OTP
-- [ ] Thiết lập thời gian hết hạn OTP
-- [ ] Thiết lập giới hạn gửi lại OTP
-- [ ] Hiển thị lỗi xác thực bằng tiếng Việt có dấu
+- [x] Xây dựng luồng gửi OTP
+- [x] Xây dựng luồng xác thực OTP
+- [x] Thiết lập thời gian hết hạn OTP
+- [x] Thiết lập giới hạn gửi lại OTP
+- [x] Hiển thị lỗi xác thực bằng tiếng Việt có dấu
 
 ### 3.3. Phân quyền và bảo mật
-- [ ] Xây dựng middleware hoặc guard phân quyền
-- [ ] Chặn truy cập route admin nếu không đúng vai trò
+- [x] Xây dựng middleware hoặc guard phân quyền
+- [x] Chặn truy cập route admin nếu không đúng vai trò
 - [ ] Chặn truy cập route nông dân nếu không đúng vai trò
 - [ ] Thiết lập refresh token hoặc cơ chế duy trì phiên đăng nhập
-- [ ] Ghi log các sự kiện đăng nhập quan trọng
+- [x] Ghi log các sự kiện đăng nhập quan trọng
 
 ---
 
@@ -270,14 +270,14 @@
 - [ ] Kiểm tra toàn bộ text hiển thị là tiếng Việt có dấu
 
 ### 12.3. Kiểm thử tích hợp
-- [ ] Kiểm tra luồng đăng ký đến xác thực OTP
+- [x] Kiểm tra luồng đăng ký đến xác thực OTP
 - [ ] Kiểm tra luồng khám phá dự án đến đầu tư
 - [ ] Kiểm tra luồng nông dân cập nhật nhật ký
 - [ ] Kiểm tra luồng truy xuất QR
 - [ ] Kiểm tra luồng hoàn tất chu kỳ đầu tư
 
 ### 12.4. Hoàn thiện vận hành
-- [ ] Tối ưu cấu hình Docker cho môi trường dev
+- [x] Tối ưu cấu hình Docker cho môi trường dev
 - [ ] Chuẩn bị cấu hình cho staging hoặc production
 - [ ] Hoàn thiện tài liệu hướng dẫn triển khai
 - [ ] Hoàn thiện tài liệu hướng dẫn sử dụng cho admin
@@ -288,7 +288,7 @@
 ## 13. Mốc ưu tiên đề xuất
 
 ### 13.1. MVP nên làm trước
-- [ ] Tài khoản và OTP
+- [x] Tài khoản và OTP
 - [ ] Danh sách và chi tiết dự án nông sản
 - [ ] Gói đầu tư và đầu tư cơ bản
 - [ ] Thanh toán giả lập hoặc sandbox
